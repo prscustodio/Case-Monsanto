@@ -1,0 +1,13 @@
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.csprojAssemblyReference.cache
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.Form1.resources
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.Properties.Resources.resources
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.csproj.GenerateResource.cache
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.exe
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.pdb
+C:\Users\paulo\Desktop\weatherLink\bin\Debug\WeatherLink.exe.manifest
+C:\Users\paulo\Desktop\weatherLink\bin\Debug\WeatherLink.application
+C:\Users\paulo\Desktop\weatherLink\bin\Debug\WeatherLink.exe
+C:\Users\paulo\Desktop\weatherLink\bin\Debug\WeatherLink.pdb
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.exe.manifest
+C:\Users\paulo\Desktop\weatherLink\obj\Debug\WeatherLink.application

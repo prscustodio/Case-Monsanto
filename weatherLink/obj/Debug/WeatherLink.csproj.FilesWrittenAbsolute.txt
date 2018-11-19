@@ -1,0 +1,7 @@
+/home/fernando/Downloads/weatherLink/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/fernando/Downloads/weatherLink/obj/Debug/WeatherLink.Form1.resources
+/home/fernando/Downloads/weatherLink/obj/Debug/WeatherLink.Properties.Resources.resources
+/home/fernando/Downloads/weatherLink/bin/Debug/WeatherLink.pdb
+/home/fernando/Downloads/weatherLink/bin/Debug/WeatherLink.exe
+/home/fernando/Downloads/weatherLink/obj/Debug/WeatherLink.exe
+/home/fernando/Downloads/weatherLink/obj/Debug/WeatherLink.pdb
