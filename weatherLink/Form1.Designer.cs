@@ -1,4 +1,4 @@
-namespace WeatherLink
+﻿namespace WeatherLink
 {
     partial class Form1
     {
@@ -28,98 +28,60 @@ namespace WeatherLink
         /// </summary>
         private void InitializeComponent()
         {
-            this.SerialButton = new System.Windows.Forms.Button();
-            this.TelnetButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.BoxIP = new System.Windows.Forms.TextBox();
-            this.BoxPorta = new System.Windows.Forms.TextBox();
+            this.FilePathTb = new System.Windows.Forms.TextBox();
+            this.FilePathLbl = new System.Windows.Forms.Label();
+            this.LogTb = new System.Windows.Forms.TextBox();
+            this.LogLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // SerialButton
+            // FilePathTb
             // 
-            this.SerialButton.Enabled = false;
-            this.SerialButton.Location = new System.Drawing.Point(17, 15);
-            this.SerialButton.Margin = new System.Windows.Forms.Padding(4);
-            this.SerialButton.Name = "SerialButton";
-            this.SerialButton.Size = new System.Drawing.Size(176, 50);
-            this.SerialButton.TabIndex = 5;
-            this.SerialButton.Text = "Serial";
-            this.SerialButton.UseVisualStyleBackColor = true;
-            this.SerialButton.Click += new System.EventHandler(this.Serial_Click);
+            this.FilePathTb.Location = new System.Drawing.Point(17, 56);
+            this.FilePathTb.Name = "FilePathTb";
+            this.FilePathTb.Size = new System.Drawing.Size(367, 22);
+            this.FilePathTb.TabIndex = 1;
             // 
-            // TelnetButton
+            // FilePathLbl
             // 
-            this.TelnetButton.Enabled = false;
-            this.TelnetButton.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.TelnetButton.Location = new System.Drawing.Point(203, 15);
-            this.TelnetButton.Margin = new System.Windows.Forms.Padding(4);
-            this.TelnetButton.Name = "TelnetButton";
-            this.TelnetButton.Size = new System.Drawing.Size(183, 49);
-            this.TelnetButton.TabIndex = 6;
-            this.TelnetButton.Text = "Network";
-            this.TelnetButton.UseVisualStyleBackColor = true;
-            this.TelnetButton.Click += new System.EventHandler(this.Telnet_Click);
+            this.FilePathLbl.AutoSize = true;
+            this.FilePathLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilePathLbl.Location = new System.Drawing.Point(14, 28);
+            this.FilePathLbl.Name = "FilePathLbl";
+            this.FilePathLbl.Size = new System.Drawing.Size(320, 20);
+            this.FilePathLbl.TabIndex = 0;
+            this.FilePathLbl.Text = "Caminho do Arquivo de Configuração";
+            this.FilePathLbl.Click += new System.EventHandler(this.FilePathLbl_Click);
             // 
-            // textBox1
+            // LogTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(17, 134);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(367, 268);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.LogTb.Location = new System.Drawing.Point(17, 124);
+            this.LogTb.Margin = new System.Windows.Forms.Padding(4);
+            this.LogTb.Multiline = true;
+            this.LogTb.Name = "LogTb";
+            this.LogTb.Size = new System.Drawing.Size(367, 268);
+            this.LogTb.TabIndex = 2;
+            this.LogTb.TextChanged += new System.EventHandler(this.LogTb_TextChanged);
             // 
-            // label1
+            // LogLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 17);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "IP";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(289, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 17);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Porta";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // BoxIP
-            // 
-            this.BoxIP.Location = new System.Drawing.Point(17, 105);
-            this.BoxIP.Name = "BoxIP";
-            this.BoxIP.Size = new System.Drawing.Size(269, 22);
-            this.BoxIP.TabIndex = 10;
-            this.BoxIP.Text = "10.180.240.60";
-            // 
-            // BoxPorta
-            // 
-            this.BoxPorta.Location = new System.Drawing.Point(292, 104);
-            this.BoxPorta.Name = "BoxPorta";
-            this.BoxPorta.Size = new System.Drawing.Size(94, 22);
-            this.BoxPorta.TabIndex = 11;
-            this.BoxPorta.Text = "22222";
+            this.LogLbl.AutoSize = true;
+            this.LogLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogLbl.Location = new System.Drawing.Point(14, 100);
+            this.LogLbl.Name = "LogLbl";
+            this.LogLbl.Size = new System.Drawing.Size(40, 20);
+            this.LogLbl.TabIndex = 3;
+            this.LogLbl.Text = "Log";
+            this.LogLbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 411);
-            this.Controls.Add(this.BoxPorta);
-            this.Controls.Add(this.BoxIP);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.TelnetButton);
-            this.Controls.Add(this.SerialButton);
+            this.ClientSize = new System.Drawing.Size(401, 405);
+            this.Controls.Add(this.LogLbl);
+            this.Controls.Add(this.FilePathLbl);
+            this.Controls.Add(this.FilePathTb);
+            this.Controls.Add(this.LogTb);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Weatherlink";
@@ -131,13 +93,10 @@ namespace WeatherLink
 
         #endregion
 
-        private System.Windows.Forms.Button SerialButton;
-        private System.Windows.Forms.Button TelnetButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox BoxIP;
-        private System.Windows.Forms.TextBox BoxPorta;
+        private System.Windows.Forms.Label FilePathLbl;
+        private System.Windows.Forms.TextBox FilePathTb;
+        private System.Windows.Forms.TextBox LogTb;
+        private System.Windows.Forms.Label LogLbl;
     }
 }
 
